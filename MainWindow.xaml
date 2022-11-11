@@ -1,0 +1,16 @@
+﻿<Window x:Class="PruebaTecnicaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PruebaTecnicaWPF"
+        mc:Ignorable="d"
+        Title="PruebaTecnica" Height="450" Width="800">
+    <Grid OpacityMask="Black">
+        <Button Content="Cancelar Operación" HorizontalAlignment="Left" Margin="434,189,7,5" VerticalAlignment="Top" Width="142" Height="39" Click="Button_Click" BorderBrush="#FFE8720B" Background="#FFE8720B" FontFamily="Segoe UI Black"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="190,191,0,0" TextWrapping="Wrap" Text="Cancelar Operación" VerticalAlignment="Top" Width="155"/>
+        
+    </Grid>
+    
+    
+</Window>
